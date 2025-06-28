@@ -36,3 +36,23 @@ A secure wallet generator for Octra blockchain.
    - Test signature functionality
    - Derive addresses for different network types
    - Auto-save wallet file to disk
+  
+
+
+
+
+
+curl -fsSL https://bun.sh/install | bash
+exec $SHELL
+bun --version
+sudo apt update && sudo apt install ufw -y
+sudo ufw allow 8888
+git clone https://github.com/octra-labs/wallet-gen
+cd wallet-gen
+bun install
+bun run build
+bun start
+➖ Wait for the Popup Window & Open
+➖ Save Phrase, Wallet Address, Private & Public Key
+➖ Request Octra Faucet  (https://faucet.octra.network/)
+➖ Done
